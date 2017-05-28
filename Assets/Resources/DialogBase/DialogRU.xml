@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<base>
+<Events>
+    <Event id="0" name="chapter1" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Максим" type="персонаж">
+        <say id="0.1" move="1" >Малый, ты что, дурачек?.. Малый?</say>
+      </Actor>
+      <Actor id="1" name="Лёша" type="игрок">
+        <say id="1.1" move="2" >
+          Нет. Я просто так не могу.
+        </say>
+      </Actor>
+      <Actor id="2" name="Максим" type="персонаж">
+        <say id="2.1" move="-1" >Пописай в бутылку. Мы отвернёмся.</say>
+      </Actor>
+  </Event>
+  <Event id="0" name="pastchapter1" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Максим" type="персонаж">
+        <say id="0.1" move="1" >Нам здесь делать нечего.</say>
+      </Actor>
+  </Event>
+  <Event id="1" name="chapter2" Appearance="">
+    <Actor id="0" name="Егор" type="игрок">
+        <say id="0.1" move="1" >
+          Та ну, Макс. Ещё на меня попадёт.
+        </say>
+      </Actor>
+      <Actor id="1" name="Лёша" type="персонаж">
+        <say id="1.1" move="2" >…ммм</say>
+      </Actor>
+      <Actor id="2" name="Лера" type="игрок">
+        <say id="2.1" move="-1" >
+          Лёша, потерпи.
+        </say>
+      </Actor>
+    </Event>
+    <Event id="0" name="futurechapter2" Appearance="">
+      <Actor id="-1" name="default" type="default">
+      </Actor> 
+      <Actor id="0" name="Лёша" type="персонаж">
+        <say id="0.1" move="1" >Мы еще не сделали нужные дела.</say>
+      </Actor>
+  </Event>
+    <Event id="2" name="chapter3" Appearance="">
+      <Actor id="0" name="Лёша" type="персонаж">
+          <say id="0.1" move="1" >Кристина Игоревна!... Кристина Иго-ре-в-на!</say>
+        </Actor>
+        <Actor id="1" name="Кристина Игоревна" type="персонаж">
+          <say id="1.1" move="2" >
+            ЧТО!??
+          </say>
+        </Actor>
+       <Actor id="3" name="Лёша" type="игрок">
+          <say id="3.1" move="-1" >А вы бы не могли сделать остан…</say>
+      </Actor>
+    </Event>
+    <Event id="3" name="chapter4" Appearance="">
+      <Actor id="0" name="Максим" type="игрок">
+        <say id="0.1" move="1" >
+          НЕЕЕЕЕЕТ!
+        </say>
+      </Actor>
+      <Actor id="1" name="Кристина Игоревна" type="игрок">
+        <say id="1.1" move="2" >
+          Максим! Закрой рот! Я не слышу, что он говорит!
+        </say>
+      </Actor>
+      <Actor id="2" name="Максим" type="игрок">
+        <say id="2.1" move="-1" >
+          Не закрою!
+        </say>
+      </Actor>
+    </Event>
+</Events>
+</base>
+
+
